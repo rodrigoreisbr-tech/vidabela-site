@@ -1,0 +1,7 @@
+# Fonte de dados local — não publicar
+info-loft.pdf
+extracted/
+
+# Python
+__pycache__/
+*.pyc

@@ -58,13 +58,17 @@ site/
   relógio, controle do portão) foram descartadas.
 - **SEO**: title/description/Open Graph por página, JSON-LD (LodgingBusiness),
   sitemap.xml e robots.txt.
-- **Reserva**: todos os CTAs abrem o WhatsApp (85) 98184-7080 com mensagem
-  pré-preenchida; botão flutuante presente em todas as páginas.
-- **Instagram dos estabelecimentos**: 30 links extraídos das anotações do PDF
-  (passeios, restaurantes e cafés). No PDF, os links de **Angus** e
-  **Rosa de Saron** apontavam para perfis de outros estabelecimentos (erro de
-  edição) — foram omitidos. Sem link no PDF: Madame Tequila, Sal Cumbuco Steak
-  House, Padaria Davila, quadriciclo e barracas de praia.
+- **Formato guia do hóspede** (jul/2026): o site é entregue ao hóspede na
+  chegada. CTAs de reserva, cards de venda dos lofts e selos de avaliação foram
+  removidos; todos os botões de WhatsApp usam a mensagem "Sou hóspede do Vida
+  Bela" e o hero aponta para o Guia da Casa.
+- **Instagram dos estabelecimentos**: 40 links no total — 30 extraídos das
+  anotações do PDF + 10 confirmados por pesquisa na web (Angus @anguscumbuco,
+  Madame Tequila @madametequilabar, Sal Cumbuco Steak House @salcumbuco e as
+  7 barracas de praia). No PDF, os links de **Angus** e **Rosa de Saron**
+  apontavam para perfis de outros estabelecimentos (erro de edição) — o do
+  Angus foi corrigido via pesquisa; o do Rosa de Saron não foi localizado e
+  ficou sem link, assim como a Padaria Davila e o quadriciclo.
 
 ## Pontos em aberto para você revisar
 
@@ -75,9 +79,7 @@ site/
 2. **Link do Google Maps**: usa busca por "Vida Bela Lofts Cumbuco Rua F 90".
    Se vocês tiverem o link oficial do perfil no Google Maps, vale substituir
    (em `index.html`, seção Como Chegar).
-3. **Booking.com**: o selo "10/10" está citado; se quiserem, posso adicionar o
-   link direto para a página da propriedade no Booking.
-4. **Fazendinha Adventure Park**: o PDF não traz endereço — deixei "Região do
+3. **Fazendinha Adventure Park**: o PDF não traz endereço — deixei "Região do
    Cumbuco". Se tiverem o endereço exato, é só me passar.
 5. **E-mail de contato**: não consta no PDF nem no site atual; o site usa apenas
    WhatsApp e Instagram.

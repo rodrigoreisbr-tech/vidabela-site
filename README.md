@@ -60,6 +60,11 @@ site/
   sitemap.xml e robots.txt.
 - **Reserva**: todos os CTAs abrem o WhatsApp (85) 98184-7080 com mensagem
   pré-preenchida; botão flutuante presente em todas as páginas.
+- **Instagram dos estabelecimentos**: 30 links extraídos das anotações do PDF
+  (passeios, restaurantes e cafés). No PDF, os links de **Angus** e
+  **Rosa de Saron** apontavam para perfis de outros estabelecimentos (erro de
+  edição) — foram omitidos. Sem link no PDF: Madame Tequila, Sal Cumbuco Steak
+  House, Padaria Davila, quadriciclo e barracas de praia.
 
 ## Pontos em aberto para você revisar
 

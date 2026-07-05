@@ -792,6 +792,19 @@ ul { padding-left: 1.2em; }
   margin-bottom: .1rem;
 }
 .spot-card p { color: var(--ink-soft); font-size: .96rem; margin: 0; }
+.insta-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  margin-top: .85rem;
+  font-size: .92rem;
+  font-weight: 600;
+  color: var(--brand-deep);
+  text-decoration: none;
+}
+.insta-link:hover { text-decoration: underline; }
+.insta-link svg { flex: none; color: var(--accent-soft); }
+
 .chips { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: .9rem; }
 .chip {
   background: var(--bg-alt);

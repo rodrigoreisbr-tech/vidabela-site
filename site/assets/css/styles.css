@@ -98,7 +98,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img { max-width: 100%; display: block; }
+img { max-width: 100%; height: auto; display: block; }
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
@@ -740,17 +740,25 @@ ul { padding-left: 1.2em; }
 
 /* ---- Mapa figura ---- */
 .map-figure { margin: 0 0 2.2rem; }
-.map-figure img {
-  width: 100%;
+.map-figure__scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   border-radius: var(--radius);
   border: 1px solid var(--line);
   box-shadow: var(--shadow-sm);
 }
+.map-figure img { width: 100%; }
 .map-figure figcaption {
   font-size: .9rem;
   color: var(--ink-soft);
   text-align: center;
   margin-top: .6rem;
+}
+.map-hint { display: none; }
+@media (max-width: 720px) {
+  /* no celular o mapa mantem largura legivel e rola na horizontal */
+  .map-figure img { width: 880px; max-width: none; }
+  .map-hint { display: inline; font-weight: 600; color: var(--brand-deep); }
 }
 
 /* ---- Barracas / numbered cards ---- */
